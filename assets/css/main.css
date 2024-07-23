@@ -2383,3 +2383,49 @@ input, select, textarea {
 			}
 
 		}
+
+/* Bubbles */
+.bubbles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.bubbles span {
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    bottom: -40px;
+    border-radius: 50%;
+    animation: rise 20s infinite ease-in;
+    z-index: 1;
+    opacity: 0.6;
+}
+
+.bubbles span:nth-child(odd) {
+    width: 10px;
+    height: 10px;
+}
+
+.bubbles span:nth-child(even) {
+    width: 30px;
+    height: 30px;
+}
+
+@keyframes rise {
+    0% {
+        bottom: -100px;
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(100px);
+    }
+    100% {
+        bottom: 100vh;
+        transform: translateX(-200px);
+    }
+}
