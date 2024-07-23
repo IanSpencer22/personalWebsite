@@ -1195,6 +1195,12 @@ input, select, textarea {
 		color: white; /* Change icon color on hover */
 	}
 
+	@media (max-width: 740px) {
+		#intro nav ul {
+			gap: 20px;
+		}
+	}
+
 	ul.icons {
 		cursor: default;
 	}
@@ -1886,8 +1892,6 @@ input, select, textarea {
 	}
 
 	/* Responsive logo styling */
-
-
 	@media (max-width: 1680px) {
 		#logo {
 			width: 65px;
