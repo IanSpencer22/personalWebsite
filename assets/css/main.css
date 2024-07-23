@@ -1197,18 +1197,18 @@ input, select, textarea {
 
 	@media (max-width: 740px) {
 		#intro nav ul {
-			gap: 0px;
+			gap: 10px;
 		}
 
 		#intro nav ul li a {
 			display: inline-block;
-			width: 50px; /* Adjust the size of the circle */
-			height: 50px; /* Adjust the size of the circle */
-			line-height: 49px; /* Align icon vertically */
+			width: 55px; /* Adjust the size of the circle */
+			height: 55px; /* Adjust the size of the circle */
+			line-height: 54px; /* Align icon vertically */
 			border-radius: 50%;
 			color: white; /* Icon color */
 			text-align: center;
-			font-size: 25px; /* Adjust icon size */
+			font-size: 30px; /* Adjust icon size */
 		}
 	}
 
