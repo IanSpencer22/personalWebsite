@@ -1161,6 +1161,11 @@ input, select, textarea {
 
 /* Icons */
 
+	.icon-list .icon {
+		position: relative;
+		z-index: 2; /* Higher z-index for icons */
+	}
+
 	/* Style for the icon list */
 	#intro nav ul {
 		list-style: none;
@@ -1174,6 +1179,7 @@ input, select, textarea {
 	/* Style for each icon list item */
 	#intro nav ul li {
 		display: inline-block;
+		z-index: 100;
 	}
 	
 	/* Style for the icons */
@@ -1195,7 +1201,7 @@ input, select, textarea {
 		color: white; /* Change icon color on hover */
 	}
 
-	@media (max-width: 740px) {
+	@media (max-width: 480px) {
 		#intro nav ul {
 			gap: 10px;
 		}
@@ -1876,6 +1882,23 @@ input, select, textarea {
 
 		}
 
+		.poptrox-popup .pic img {
+			max-width: 100%; /* Increase the maximum width of the full-size images */
+			max-height: 100%; /* Increase the maximum height of the full-size images */
+			padding: 30px; /* Add white space around the images */
+			background-color: white; /* Optional: Add a background color to create a clear white space */
+			box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Optional: Add shadow to give a floating effect */
+		}
+
+		@media screen and (max-width: 480px) {
+
+			.poptrox-popup .pic img {
+				padding: 20px 0; /* Add white space around the images */
+				background-color: white; /* Optional: Add a background color to create a clear white space */
+				box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Optional: Add shadow to give a floating effect */
+			}
+		}
+
 /* Header */
 
 	#header {
@@ -2177,10 +2200,6 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			.main > .content br {
-				display: none;
-			}
-
 			.main.fullscreen {
 				height: auto !important;
 			}
@@ -2391,6 +2410,7 @@ input, select, textarea {
     height: 100%;
     overflow: hidden;
     z-index: 0;
+	pointer-events: none;
 }
 
 .bubbles span {
