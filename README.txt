@@ -1,4 +1,4 @@
-## This is my personal website! Below you can find the template that I used to create this.
+This is my personal website! Below you can find the template that I used to create this.
 
 ____________________________________
 
