@@ -2104,12 +2104,24 @@ input, select, textarea {
 			}
 
 			.main.style3.primary {
-				background: hwb(88 85% 0%);
+				background: hwb(98 83% 0%);
 			}
 
 			.main.style3.secondary {
 				background: #c9e4ff;
 			}
+	
+		.main.style2 a:hover {
+			color: #44a041;
+		}
+
+		.main.style3 a {
+			color: #3484d4;
+		}
+
+		.main.style3 a:hover {
+			color: #0080ff;
+		}
 
 		.main.dark {
 			color: #ffffff;
