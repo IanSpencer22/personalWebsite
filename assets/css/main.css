@@ -1914,6 +1914,10 @@ input, select, textarea {
 	}
 
 	/* Logo styling */
+	.circular-icon {
+		border-radius: 50%;
+	}
+	
 	#logo {
 		display: block;
 		width: 75px;
