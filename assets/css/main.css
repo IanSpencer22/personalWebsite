@@ -1912,11 +1912,6 @@ input, select, textarea {
 		line-height: 3em;
 		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
 	}
-
-	/* Logo styling */
-	.circular-icon {
-		border-radius: 50%;
-	}
 	
 	#logo {
 		display: block;
