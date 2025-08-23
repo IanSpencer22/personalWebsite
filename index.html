@@ -6,9 +6,25 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta name="description" content="Ian Spencer's personal website. Discover my projects, skills, and connect with me for job opportunities and collaborations." />
+		<meta name="keywords" content="software engineer, web developer, AI enthusiast, React, Python, JavaScript, data visualization, machine learning, full-stack developer" />
+		<meta name="author" content="Ian Spencer" />
 		<meta http-equiv='cache-control' content='no-cache'> 
 		<meta http-equiv='expires' content='0'> 
 		<meta http-equiv='pragma' content='no-cache'>
+		
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://www.ian-spencer.com/" />
+		<meta property="og:title" content="Ian Spencer - Software Engineer & AI Enthusiast Portfolio" />
+		<meta property="og:description" content="Ian Spencer's personal website. Discover my projects, skills, and connect with me for job opportunities and collaborations." />
+		<meta property="og:image" content="https://www.ian-spencer.com/images/Iansmall.PNG" />
+		
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://www.ian-spencer.com/" />
+		<meta property="twitter:title" content="Ian Spencer - Software Engineer & AI Enthusiast Portfolio" />
+		<meta property="twitter:description" content="Ian Spencer's personal website. Discover my projects, skills, and connect with me for job opportunities and collaborations." />
+		<meta property="twitter:image" content="https://www.ian-spencer.com/images/Iansmall.PNG" />
 		<link rel="apple-touch-icon" sizes="180x180" href="/images/Iansmall.PNG">
 		<link rel="icon" type="image/png" sizes="32x32" href="/images/Iansmall.PNG">
 		<link rel="icon" type="image/png" sizes="16x16" href="/images/Iansmall.PNG">
@@ -35,6 +51,7 @@
 						<li><a href="#intro">Intro</a></li>
 						<li><a href="#one">Who I Am</a></li>
 						<li><a href="#two">Skills & Expertise</a></li>
+						<li><a href="#goals">What I'm Looking For</a></li>
 						<li><a href="#work">My Projects</a></li>
 						<li><a href="#contact">Contact</a></li>
 					</ul>
@@ -57,6 +74,9 @@
 							<li><a href="mailto:ianspencer.marine@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
 					</nav>
+					<div style="margin-top: 2em; text-align: center;">
+						<a href="https://acrobat.adobe.com/id/urn:aaid:sc:va6c2:24b228d2-a712-4d38-a586-baf219750bd9" class="button style2" target="_blank">View Resume</a>
+					</div>
 					<footer>
 						<br />
 						<br />
@@ -86,12 +106,13 @@
 			<section id="two" class="main style2 left dark fullscreen">
 				<div class="content box style2">
 					<header>
-						<h2>Skills & Expertise</h2>
+						<h2>Technical Skills & Expertise</h2>
 					</header>
 					<ul>
-						<li><strong>Programming Languages:</strong> JavaScript, Python, C++, R</li>
-						<li><strong>Frameworks:</strong> React, D3.js, Node.js</li>
-						<li><strong>Tools:</strong> Git, MySQL, VS Code, Jira</li>
+						<li><strong>Languages:</strong> Python, JavaScript, C/C++, SQL, Java, R</li>
+						<li><strong>Frameworks/Libraries:</strong> React, Node.js, Express, NPM, PapaParse</li>
+						<li><strong>Data/AI:</strong> Web Scraping, OpenAI/Gemini APIs, Embeddings, Data Visualization (D3.js)</li>
+						<li><strong>Tools:</strong> Git, Firebase, Supabase, Salesforce, Qdrant, Streamlit, Docker, Jira</li>
 						<li><strong>Certifications (<a href="https://www.freecodecamp.org/IanSpencer">freeCodeCamp</a>):</strong> 
 							Responsive Web Design, 
 							JavaScript Algorithms and Data Structures (Beta), 
@@ -99,7 +120,18 @@
 							Data Visualization</li>
 						<li><strong>Soft Skills:</strong> Teamwork, Problem-solving, Adaptability</li>
 					  </ul>
-					  <a href="https://acrobat.adobe.com/id/urn:aaid:sc:va6c2:1521a064-e5f3-4284-81d4-0fb454e23074" class="button">Resume</a>
+					  <a href="https://acrobat.adobe.com/id/urn:aaid:sc:va6c2:24b228d2-a712-4d38-a586-baf219750bd9" class="button" target="_blank">Resume</a>
+				</div>
+				<a href="#goals" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- Goals -->
+			<section id="goals" class="main style2 right dark fullscreen" style="background-image: url('images/codingpic.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+				<div class="content box style2">
+					<header>
+						<h2>What I'm Looking For</h2>
+					</header>
+					<p>I'm actively seeking opportunities in software engineering, particularly in web development, AI/ML applications, or data visualization. I'm open to full-time positions, internships, and freelance projects that allow me to grow my skills while contributing to meaningful projects that solve real-world problems.</p>
 				</div>
 				<a href="#work" class="button style2 down anchored">Next</a>
 			</section>
@@ -109,7 +141,19 @@
 				<div class="content">
 					<header>
 						<h2>My Projects</h2>
-						<p>Keep your eyes open for updates on my <a href="https://www.linkedin.com/in/ianspencer22/">LinkedIn</a> for any updates regarding my housing comparison app I will be continuing for the SWE Fellowship Program @ HeadstarterAI.<br /><br />
+						<p>Check out my latest project: <a href="https://www.ianbuilds.dev/" target="_blank">Schedule Checker</a> - A modern web application that helps you quickly check your availability by integrating with your Outlook calendar. See your free time at a glance without having to manually scan through your busy calendar.<br /><br />
+							<strong>Features:</strong><br />
+							🔐 Microsoft Authentication: Secure login with your Microsoft account<br />
+							📅 Outlook Integration: Direct integration with Microsoft Graph API<br />
+							🕒 Flexible Time Selection: Choose custom date ranges and time periods<br />
+							📊 Visual Availability Display: Clear view of available and busy time slots<br />
+							🎯 Day Filtering: Select specific days of the week to check<br />
+							📱 Responsive Design: Works on desktop and mobile devices<br />
+							⚡ Real-time Updates: Automatically refreshes when you change settings</p>
+						
+						<hr style="margin: 2em 0; border: none; border-top: 2px solid #666; opacity: 0.3;" />
+						
+						<p><strong>Other Projects:</strong><br />
 							All of my freeCodeCamp projects can be seen at <a href="https://codepen.io/IanS22">codepen.io</a><br />These are some highlights of those projects that I have completed:</p>
 					</header>
 
@@ -131,7 +175,7 @@
 								<a href="images/fulls/markdown.png" class="image fit"><img src="images/thumbs/markdown.png" title="Markdown Previewer" alt="Markdown Previewer created by Ian Spencer" /></a>
 							</article>
 							<article class="from-right">
-								<a href="images/fulls/clock.png" class="image fit"><img src="images/thumbs/clock.png" title="25 + 5 Clock" alt="Timer system created by Ian Spencer" /></a>
+								<a href="https://codepen.io/IanS22" target="_blank" class="image fit"><img src="images/thumbs/clock.png" title="25 + 5 Clock - Click to view on CodePen" alt="Timer system created by Ian Spencer" /></a>
 							</article>
 						</div>
 
@@ -174,7 +218,7 @@
 
 				<!-- Menu -->
 					<ul class="menu">
-						<li>&copy; 2024 Ian Spencer</li>
+						<li>&copy; 2025 Ian Spencer</li>
 					</ul>
 
 			</footer>
